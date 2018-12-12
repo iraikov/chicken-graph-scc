@@ -1,0 +1,10 @@
+;;;; -*- Hen -*-
+
+((synopsis "Compute strongly-connected components (SCC) of a graph.")
+ (license "GPL-3")
+ (category data)
+ (dependencies queues iset matchable yasos digraph)
+ (test-dependencies test srfi-1)
+ (author "Ivan Raikov")
+ (components (extension graph-scc))
+ )
