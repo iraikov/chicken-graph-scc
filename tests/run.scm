@@ -19,7 +19,7 @@
 ;; <http://www.gnu.org/licenses/>.
 ;;
 
-(import scheme (chicken base) (chicken format)
+(import scheme (scheme base) (chicken base) (chicken format)
         (only srfi-1 delete-duplicates concatenate list-tabulate zip)
         digraph graph-scc test)
 

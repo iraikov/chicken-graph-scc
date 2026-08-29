@@ -27,7 +27,7 @@
 
  (fold)
 		   
- (import scheme (chicken base)
+ (import scheme (scheme base) (chicken base)
          srfi-4 queues iset matchable digraph)
 
  (define (graph-scc:error x . rest)
